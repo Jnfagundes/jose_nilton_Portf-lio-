@@ -149,10 +149,8 @@ footer{
        
     }
     nav{
-
         width: 95%;
         height: 100px;
-       
     }
     .nave{
         text-decoration: none;
@@ -161,12 +159,9 @@ footer{
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-bottom: 10px;
         font-size: 0.8em;
-       
     }
     #imagen{
-    
         background-image: url(Fotos\ tratadas/perfiltratado1.png);
-
         height: 700px;
         width: 85%;
         margin: 100px;
