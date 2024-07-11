@@ -126,3 +126,44 @@ footer{
     font-weight: bold;
 }
 
+@media (min-width: 480px) and (max-width:767px){
+    body{
+        margin: 1px;
+        padding: 1px;
+        background-color:rgb(233, 222, 222);
+        
+    }
+    #titulo{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 2.5em;
+        color: rgb(62, 92, 62);
+        margin: 0px;
+        padding: 0px;
+        font-weight: bold;
+        font-style: italic;
+       
+        text-align: center;
+    }
+    #titulo_img{
+        display: block;
+       
+    }
+    nav{
+        width: 95%;
+        height: 100px;
+    }
+    .nave{
+        text-decoration: none;
+        display: inline;
+        color: black;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 10px;
+        font-size: 0.8em;
+    }
+    #imagen{
+        background-image: url(Fotos\ tratadas/perfiltratado1.png);
+        height: 700px;
+        width: 85%;
+        margin: 100px;
+    }
+}
