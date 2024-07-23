@@ -2,28 +2,28 @@ body{
     margin: 0px;
     padding: auto 0px;
     background-color: rgb(32, 34, 32);
-    width: 100%;
+    width: 99,5%;
 }
 
 header{
     display: flex;
-    position: sticky;
-    z-index: 100;
+    position:relative;
+    justify-content: flex-end;
     flex-direction: row;
     width: 100%;
     height: 50px;
     border-bottom: solid 1px rgb(65, 240, 65);
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
+    
     
 }
 
 .container{
     position: fixed;
     left: 20px;
-    width: 20%;
-    border: solid 1px black;
+    width: 3%;
+    
 }
 
 .ri-menu-line{
@@ -34,21 +34,24 @@ header{
     display: none;
 }
 a{
+    position: relative;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 2.4em;
     color: white;
     font-weight: bold;
-    align-items: center;
-    border: solid 1px black;
+    
 }
 .toggle{
     display: inline-block;
-    align-items: flex-end;
-    width: 20%;
-    border: solid 1px black;
+    align-items: center;
+    justify-content: flex-end;
+    width: 5%;
     padding-right: 0px;
-    padding-left: 100px;
+    margin: 0px;
+    margin-right: 25px;
+    position: absolute;
+    right: 0;
     
 }
 
@@ -77,6 +80,7 @@ input[type="checkbox"]{
     background-color: rgb(142, 231, 182);
     border-radius: 50%;
     transition: transform 0.3s;
+    justify-content: center;
 }
 
 input[type="checkbox"]:checked + .label .box {
@@ -94,5 +98,6 @@ input[type="checkbox"]:checked + .label {
 #sobre_mim{
     width: 99,5%;
     height: 300px;
+    margin-top: 10px;
     border: solid 1px black;
 }
