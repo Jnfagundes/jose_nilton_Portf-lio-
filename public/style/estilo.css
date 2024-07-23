@@ -7,7 +7,7 @@ body{
 
 header{
     display: flex;
-    position:relative;
+    position:static;
     justify-content: flex-end;
     flex-direction: row;
     width: 100%;
@@ -108,7 +108,6 @@ input[type="checkbox"]:checked + .label {
 .lados{
     width: 50%;
     height: 430px;
-    border: solid 1px black;
     margin: 5px;
     
 
@@ -116,11 +115,11 @@ input[type="checkbox"]:checked + .label {
 
 #foto{
     background-image: url(../assets/imagens/Fotos\ tratadas/perfil2.png); 
-    height: 400px;
-    width: 80%;
-    padding: 0px;
+    height: 100%;
+    width: 90%;
+    padding: 2px;
     margin: 0px; 
-    border: solid 1px black;
+    border: solid 3px white;
     background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-position: center;
