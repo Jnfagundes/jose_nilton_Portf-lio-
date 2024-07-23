@@ -98,7 +98,7 @@ input[type="checkbox"]:checked + .label {
 #sobre_mim{
     display: flex;
     width: 99,5%;
-    height: 330px;
+    height: 530px;
     margin-top: 10px;
     justify-content: center;
     align-items: center;
@@ -107,7 +107,7 @@ input[type="checkbox"]:checked + .label {
 
 .lados{
     width: 50%;
-    height: 299px;
+    height: 430px;
     border: solid 1px black;
     margin: 5px;
     
@@ -115,8 +115,14 @@ input[type="checkbox"]:checked + .label {
 }
 
 #foto{
-    background-image: url(../assets/imagens/Fotos\ tratadas/perfil2.png);
+    background-image: url(../assets/imagens/Fotos\ tratadas/perfil2.png); 
+    height: 400px;
+    width: 80%;
+    padding: 0px;
+    margin: 0px; 
+    border: solid 1px black;
+    background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
+    background-repeat: no-repeat; /* Impede que a imagem se repita */
     background-position: center;
-    background-position: center center;
-    
+    border-radius: 50%;
 }
