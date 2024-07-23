@@ -96,8 +96,27 @@ input[type="checkbox"]:checked + .label {
 }
 
 #sobre_mim{
+    display: flex;
     width: 99,5%;
-    height: 300px;
+    height: 330px;
     margin-top: 10px;
+    justify-content: center;
+    align-items: center;
     border: solid 1px black;
+}
+
+.lados{
+    width: 50%;
+    height: 299px;
+    border: solid 1px black;
+    margin: 5px;
+    
+
+}
+
+#foto{
+    background-image: url(../assets/imagens/Fotos\ tratadas/perfil2.png);
+    background-position: center;
+    background-position: center center;
+    
 }
