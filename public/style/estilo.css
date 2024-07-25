@@ -102,7 +102,14 @@ input[type="checkbox"]:checked + .label {
     margin-top: 10px;
     justify-content: center;
     align-items: center;
-    border: solid 1px black;
+    
+    
+}
+
+hr{
+    width: 90%;
+    color: green;
+
 }
 
 .lados{
@@ -132,4 +139,11 @@ h1{
     font-size: 3.5em;
     text-align: center;
     text-decoration: underline;
+}
+
+#direito p{
+    color: rgb(165, 165, 155);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.4em;
+    text-align: center;
 }
