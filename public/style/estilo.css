@@ -1,21 +1,24 @@
 body{
     margin: 0px;
-    padding: auto 0px;
+    padding: 0px;
+    border: 0px;
     background-color: rgb(32, 34, 32);
     width: 99,5%;
 }
 
 header{
+    background-color: rgb(32, 34, 32);
     display: flex;
-    position:static;
+    position:fixed;
     justify-content: flex-end;
+    margin-top: 0px;
     flex-direction: row;
     width: 100%;
     height: 50px;
     border-bottom: solid 1px rgb(65, 240, 65);
     justify-content: center;
     align-items: center;
-    
+   
     
 }
 
@@ -98,6 +101,7 @@ input[type="checkbox"]:checked + .label {
 #sobre_mim{
     display: flex;
     width: 99,5%;
+    margin-top: 100px;
     height: 530px;
     margin-top: 10px;
     justify-content: center;
@@ -115,7 +119,8 @@ hr{
 .lados{
     width: 50%;
     height: 430px;
-    margin: 5px;
+    margin: 20px;
+    margin-top: 80px;
     
 
 }
