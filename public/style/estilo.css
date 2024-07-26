@@ -122,10 +122,11 @@ hr{
 
 #foto{
     background-image: url(../assets/imagens/Fotos\ tratadas/perfil2.png); 
-    height: 100%;
-    width: 90%;
+    height: 90%;
+    width: 80%;
     padding: 2px;
     margin: 0px; 
+    margin-left: 50px;
     border: solid 3px white;
     background-size: cover; /* Ajusta a imagem para cobrir todo o fundo */
     background-repeat: no-repeat; /* Impede que a imagem se repita */
@@ -164,7 +165,7 @@ h1{
 
 #tecnolog{
     margin: 25px;
-    margin-left: 100px;
+    margin-left: 160px;
     width: 80%;
     
 }
