@@ -189,7 +189,7 @@ h1{
 
 
 #tecnolog img:hover{
-    border: solid 2px wheat;
+    background-color: #033605;
 }
 
 h2{
@@ -208,14 +208,14 @@ h2{
 }
 
 #text{
-    margin-left: 100px;
+    margin-left: 180px;
 }
 
 p{
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 1em;
+    font-size: 1.5em;
     color: white;
-    text-align: justify;
+    text-align: center;
     text-indent: 10px;
 }
 
