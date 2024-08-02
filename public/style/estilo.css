@@ -36,7 +36,7 @@ header{
 .hidden{
     display: none;
 }
-a{
+#a_sobre{
     position: relative;
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -217,6 +217,13 @@ p{
     color: white;
     text-align: center;
     text-indent: 10px;
+}
+
+#proj{
+    display: flex;
+}
+#urna{
+    margin-left: 10px;
 }
 
 footer{
