@@ -236,6 +236,10 @@ a{
 #urna{
     margin-left: 10px;
 }
+#urna:hover{
+   background-color: rgb(75, 75, 197);
+   padding: 10px;
+}
 
 footer{
     background-color: #4caf50;
